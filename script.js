@@ -38,7 +38,7 @@ function passWord() {
     if (!pass1) history.go(-1);
     if (pass1.toLowerCase() == bassword) {
       alert("That was Very Epic, I am proud!");
-      window.open("https://www.youtube.com/watch?v=FDKDdVilQT4");
+      window.open("/todoAPP.html");
       break;
     }
     testV += 1;
