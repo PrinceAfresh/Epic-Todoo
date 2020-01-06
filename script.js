@@ -38,7 +38,7 @@ function passWord() {
     if (!pass1) history.go(-1);
     if (pass1.toLowerCase() == bassword) {
       alert("That was Very Epic, I am proud!");
-      window.open("./todo.html");
+      window.location.href="./todo.html";
       break;
     }
     testV += 1;
